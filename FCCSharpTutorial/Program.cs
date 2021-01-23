@@ -11,7 +11,7 @@ namespace FCCSharpTutorial
             //char grade = 'A';
             //int age = 30;
             //double gpa = 3.3;
-            //bool isMale = true;
+            //bool isMale = true;git git 
 
 
             ////// Variables
@@ -27,9 +27,23 @@ namespace FCCSharpTutorial
             //Console.WriteLine($"But he didn't like being {age}");
 
             ////// Strings
-            string phrase = "\"Giraffe\" \nAcademy";
-            Console.WriteLine(phrase.Substring(phrase.IndexOf("Academy")));
-            Console.WriteLine(phrase.Substring(3, 4));
+            //string phrase = "\"Giraffe\" \nAcademy";
+            //Console.WriteLine(phrase.Substring(phrase.IndexOf("Academy")));
+            //Console.WriteLine(phrase.Substring(3, 4));
+
+            ////// Numbers
+
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
+            Console.WriteLine(Math.Abs(-40));
+            Console.WriteLine(Math.Pow(-40, 4));
+            Console.WriteLine(Math.Sqrt(90));
+            Console.WriteLine(Math.Max(90, 2));
+            Console.WriteLine(Math.Min(90, 2));
+            Console.WriteLine(Math.Round(5.4567));
+
+
         }
     }
 }
