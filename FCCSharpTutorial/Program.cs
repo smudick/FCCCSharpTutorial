@@ -6,11 +6,12 @@ namespace FCCSharpTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("    /|");
-            Console.WriteLine("   / |");
-            Console.WriteLine("  /  |");
-            Console.WriteLine(" /   |");
-            Console.WriteLine("/____|");
+            string phrase = "Giraffe Academy";
+            char grade = 'A';
+            int age = 30;
+            double gpa = 3.3;
+            bool isMale = true;
+
         }
     }
 }
