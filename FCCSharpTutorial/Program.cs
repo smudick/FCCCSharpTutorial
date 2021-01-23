@@ -15,7 +15,7 @@ namespace FCCSharpTutorial
 
 
             ////// Variables
-            ///
+
             //string name = "Tom";
             //int age = 25;
 
@@ -33,15 +33,24 @@ namespace FCCSharpTutorial
 
             ////// Numbers
 
-            int num = 6;
-            num++;
-            Console.WriteLine(num);
-            Console.WriteLine(Math.Abs(-40));
-            Console.WriteLine(Math.Pow(-40, 4));
-            Console.WriteLine(Math.Sqrt(90));
-            Console.WriteLine(Math.Max(90, 2));
-            Console.WriteLine(Math.Min(90, 2));
-            Console.WriteLine(Math.Round(5.4567));
+            //int num = 6;
+            //num++;
+            //Console.WriteLine(num);
+            //Console.WriteLine(Math.Abs(-40));
+            //Console.WriteLine(Math.Pow(-40, 4));
+            //Console.WriteLine(Math.Sqrt(90));
+            //Console.WriteLine(Math.Max(90, 2));
+            //Console.WriteLine(Math.Min(90, 2));
+            //Console.WriteLine(Math.Round(5.4567));
+
+            //////// User Input
+
+            Console.Write("Enter your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}");
+            Console.Write("Enter your age:");
+            string age = Console.ReadLine();
+            Console.WriteLine($"You are {age} years old");
 
 
         }
